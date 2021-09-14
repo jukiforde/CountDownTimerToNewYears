@@ -1,5 +1,5 @@
 # CountDownTimerToNewYears
-Simple count down to new years timer -  javascript project #3 w/ some UI CSS Practise
+Simple count down to new years timer -  javascript project #2 w/ some UI CSS Practise
 
 ## Goals of Project
 - Practise javascript principles (Manipulating the date function) 
