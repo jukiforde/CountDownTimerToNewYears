@@ -21,9 +21,12 @@ function countDownTime() {
   let days = Math.floor(totalSeconds / 3600 / 24);
 
   daysField.innerHTML = days;
-  hoursField.innerHTML = hours;
-  minutesField.innerHTML = mins;
-  secondsField.innerHTML = secs;
+  hoursField.innerHTML = doubleDigits(hours);
+  minutesField.innerHTML = doubleDigits(mins);
+  secondsField.innerHTML = doubleDigits(secs);
 }
 
+function doubleDigits(time) {
+  return time < 10 ? `0${time}` : time;
+}
 setInterval(countDownTime, 1000);
